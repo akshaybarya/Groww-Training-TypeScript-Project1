@@ -1,0 +1,33 @@
+.song-list {
+  width: 50%;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.list-item-container {
+  width: 80%;
+}
+
+.list-item-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 10vh;
+  width: 90%;
+  padding: 10px;
+  margin: auto;
+}
+
+.list-item-button {
+  padding: 10px;
+  min-width: max-content;
+  width: 10vw;
+  background-color: rgb(153, 216, 245);
+  border-color: rgb(43, 146, 230);
+  border-radius: 7px;
+}
